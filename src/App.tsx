@@ -361,7 +361,10 @@ export default function App() {
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
       {/* TOPBAR */}
       <div className="topbar">
-        <div className="nc-logo-wordmark" title="NoteCore"></div>
+        <div style={{display:'flex', alignItems:'center'}}>
+          <div className="nc-logo-icon"></div>
+          <div className="app-brand">NOTE<span>CORE</span></div>
+        </div>
         <div className="tab-group">
           <button className={`tab-btn${activeTab === 'notes' ? ' active' : ''}`} onClick={() => setActiveTab('notes')}>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">

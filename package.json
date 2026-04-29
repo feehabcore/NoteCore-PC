@@ -22,7 +22,8 @@
       "preload.cjs"
     ],
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon": "public/nclogo.png"
     },
     "nsis": {
       "oneClick": false,

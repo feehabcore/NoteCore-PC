@@ -69,15 +69,19 @@ button,input,select,textarea{font:inherit;}
   mix-blend-mode: screen;
 }
 
-.nc-logo-wordmark {
-  width: 140px;
-  height: 28px;
-  background-image: url('/nclogo.png');
-  background-size: 165% auto;
-  background-position: 50% 78%;
-  background-repeat: no-repeat;
-  filter: invert(1) contrast(1.2) brightness(1.1);
-  mix-blend-mode: screen;
+.app-brand {
+  font-family: var(--ui-font-strong);
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: -0.5px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin-left: 8px;
+}
+.app-brand span {
+  color: #D9A071; /* A nice beige to match their previous aesthetic */
 }
 .tab-group{display:flex;gap:2px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:3px;}
 .tab-btn{padding:5px 16px;border-radius:6px;border:none;background:transparent;color:var(--text2);font-family:var(--ui-font-strong);font-size:.76rem;font-weight:600;letter-spacing:.15px;cursor:pointer;display:flex;align-items:center;gap:6px;transition:all .2s;}

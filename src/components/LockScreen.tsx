@@ -31,7 +31,7 @@ export default function LockScreen({ appPin, lang, onUnlock, onToast }: LockScre
   return (
     <div className="lock-screen">
       <div className="nc-logo-icon" style={{ marginBottom: 20, transform: 'scale(1.2)' }}></div>
-      <div className="nc-logo-wordmark" style={{ marginBottom: 8, transform: 'scale(1.2)' }}></div>
+      <div className="app-brand" style={{ fontSize: '2.5rem', marginBottom: 12 }}>NOTE<span>CORE</span></div>
       <div className="lock-sub">Your private local workspace</div>
       <input
         ref={inputRef}
