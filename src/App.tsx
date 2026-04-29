@@ -362,8 +362,7 @@ export default function App() {
       {/* TOPBAR */}
       <div className="topbar">
         <div style={{display:'flex', alignItems:'center'}}>
-          <div className="nc-logo-icon"></div>
-          <div className="app-brand">NOTE<span>CORE</span></div>
+          <div className="app-brand" style={{marginLeft: 0}}>NOTE<span>CORE</span></div>
         </div>
         <div className="tab-group">
           <button className={`tab-btn${activeTab === 'notes' ? ' active' : ''}`} onClick={() => setActiveTab('notes')}>
